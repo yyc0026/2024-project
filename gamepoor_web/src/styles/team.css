@@ -1,0 +1,51 @@
+.main-team{
+  margin: 0;
+  padding: 5px;
+  height: 100vh;
+  background-image: url('../images/bg.11.13.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.team-container {
+  padding: 20px;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border-radius: 10px;
+  margin: auto;
+  max-width: 900px;
+}
+
+.team-container h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.team-member {
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 2px solid #ffd700;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.bg-video1 {
+  position: fixed;
+  z-index: -1;
+  top: 0; /* 상단에 고정 */
+  left: 0; /* 왼쪽에 고정 */
+  width: 100%; /* 화면 전체 너비 */
+  height: 100%; /* 화면 전체 높이 */
+  display: flex; /* 플렉스 박스 사용 */
+}
+
+.bg-video__content1 {
+  width: auto; /* 자동 너비 */
+  height: auto; /* 자동 높이 */
+  object-fit: cover; /* 비율 유지하며 채우기 */
+  min-width: 100%; /* 최소 너비를 화면 전체로 */
+  min-height: 100%; /* 최소 높이를 화면 전체로 */
+}

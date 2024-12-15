@@ -1,0 +1,72 @@
+.bg-container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('../images/bg.11.13.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 12px;
+  position: relative;
+  max-width: 600px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+.title {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(56, 142, 60, 0.6);
+
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 20px;
+  overflow-y: auto;
+}
+
+.list li {
+  font-size: 1.2em;
+  color: #333;
+  padding: 15px 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 10px 0;
+  border-bottom: 2px solid #e65100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.list li:nth-child(odd) {
+  background-color: #ffe0b2;
+}
+
+.list li:first-child {
+  font-weight: bold;
+  color: #e65100;
+}
+
+.list li:last-child {
+  border-bottom: none;
+}

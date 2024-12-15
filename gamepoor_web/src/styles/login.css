@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  z-index: 2; 
+}
+
+
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.logo-link img {
+  vertical-align: middle;
+}
+
+.loginForm {
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: -60px auto; 
+  position: relative; 
+}
+
+.login_title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+.login_subtitle {
+  margin-right: 170px;
+  color: #1999ff;
+  padding: 5px;
+}
+
+.input input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.input input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.error {
+  color: #d9534f;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 14px;
+}
+
+.loginBut {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.loginBut:hover {
+  background-color: white;
+}
+
+.loginBut:active {
+  background-color: white;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.signupBut {
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+

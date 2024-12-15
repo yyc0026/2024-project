@@ -1,0 +1,33 @@
+.main-event{
+  margin: 0;
+  padding: 20px;
+  height: 100vh;
+  background-image: url('../images/bg.11.13.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.events-container {
+  padding: 20px;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.events-container h1{
+  text-align: center;
+}
+
+.event {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #4CAF50;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
