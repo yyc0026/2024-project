@@ -29,7 +29,10 @@
 
 
 
-<details> <summary>📁 전체 폴더 구조 보기 (클릭)</summary>
+<details>
+<summary>📁 전체 폴더 구조 보기</summary>
+
+```
 gamepoor_web/
 ├── public/
 │   ├── firebase.js
@@ -118,6 +121,7 @@ gamepoor_web/
 ├── README.md
 ├── tsconfig.json
 └── webpack.config.js
+```
 
 </details>
 
