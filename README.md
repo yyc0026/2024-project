@@ -25,95 +25,13 @@
 저는 **Monster Killer** 프로젝트에서 프론트엔드 개발을 담당하였습니다. 주요 업무는 **React**와 **TypeScript**를 사용하여 게임의 웹사이트 인터페이스를 구현하는 것이었습니다. 이 과정에서 **UI/UX 디자인**과 **플레이어 로그인 상태 관리**를 중점적으로 진행했으며, 게임의 다양한 기능을 효과적으로 표현할 수 있도록 다양한 컴포넌트를 개발했습니다.
 
 
-📦gamepoor_web
- ┣ 📂public
- ┃ ┣ 📜firebase.js
- ┃ ┣ 📜index.html
- ┃ ┗ 📜robots.txt
- ┣ 📂src
- ┃ ┣ 📂components
- ┃ ┃ ┣ 📜addscore.ts
- ┃ ┃ ┣ 📜Contact.tsx
- ┃ ┃ ┣ 📜Events.tsx
- ┃ ┃ ┣ 📜Faqs.tsx
- ┃ ┃ ┣ 📜Feedback.tsx
- ┃ ┃ ┣ 📜Footer.tsx
- ┃ ┃ ┣ 📜Forums.tsx
- ┃ ┃ ┣ 📜Groups.tsx
- ┃ ┃ ┣ 📜Header.tsx
- ┃ ┃ ┣ 📜index.tsx
- ┃ ┃ ┣ 📜LoginForm.tsx
- ┃ ┃ ┣ 📜Main.tsx
- ┃ ┃ ┣ 📜Mission.tsx
- ┃ ┃ ┣ 📜Overview.tsx
- ┃ ┃ ┣ 📜RankingComponent.tsx
- ┃ ┃ ┣ 📜Screenshot1.tsx
- ┃ ┃ ┣ 📜Screenshot2.tsx
- ┃ ┃ ┣ 📜Screenshot3.tsx
- ┃ ┃ ┣ 📜SignForm.tsx
- ┃ ┃ ┣ 📜Team.tsx
- ┃ ┃ ┣ 📜UnityPlayer.tsx
- ┃ ┃ ┗ 📜usereditform.tsx
- ┃ ┣ 📂fonts
- ┃ ┃ ┣ 📜HowlinMad-A31L.otf
- ┃ ┃ ┣ 📜KaijuMonsterG-05pr.ttf
- ┃ ┃ ┣ 📜MonsterHunterExpanded-rL19.otf
- ┃ ┃ ┣ 📜Tenada.ttf
- ┃ ┃ ┗ 📜WickedType-OV2g8.ttf
- ┃ ┣ 📂images
- ┃ ┃ ┣ 📜bg.11.13.png
- ┃ ┃ ┣ 📜ground-rock-texture2.jpg
- ┃ ┃ ┣ 📜rough-architect-structure-stonewall-superb.jpg
- ┃ ┃ ┣ 📜screenshot1.png
- ┃ ┃ ┣ 📜screenshot2.png
- ┃ ┃ ┣ 📜screenshot3.png
- ┃ ┃ ┣ 📜stone-wall.jpg
- ┃ ┃ ┣ 📜stone6.jpg
- ┃ ┃ ┗ 📜whitish-pale-stone-wall.jpg
- ┃ ┣ 📂routes
- ┃ ┃ ┗ 📜RoutesSetup.tsx
- ┃ ┣ 📂styles
- ┃ ┃ ┣ 📜contact.css
- ┃ ┃ ┣ 📜events.css
- ┃ ┃ ┣ 📜faqs.css
- ┃ ┃ ┣ 📜feedback.css
- ┃ ┃ ┣ 📜footer.css
- ┃ ┃ ┣ 📜forums.css
- ┃ ┃ ┣ 📜groups.css
- ┃ ┃ ┣ 📜login.css
- ┃ ┃ ┣ 📜main.css
- ┃ ┃ ┣ 📜mission.css
- ┃ ┃ ┣ 📜navbar.css
- ┃ ┃ ┣ 📜overview.css
- ┃ ┃ ┣ 📜ranking.css
- ┃ ┃ ┣ 📜screenshot.css
- ┃ ┃ ┣ 📜sign-up.css
- ┃ ┃ ┣ 📜styles.module.css
- ┃ ┃ ┣ 📜team.css
- ┃ ┃ ┗ 📜userEdit.module.css
- ┃ ┣ 📂video
- ┃ ┃ ┣ 📜bg.mp4
- ┃ ┃ ┗ 📜temp
- ┃ ┣ 📜App.css
- ┃ ┣ 📜App.test.tsx
- ┃ ┣ 📜App.tsx
- ┃ ┣ 📜FirebaseConfig.tsx
- ┃ ┣ 📜global.d.ts
- ┃ ┣ 📜index.css
- ┃ ┣ 📜index.tsx
- ┃ ┣ 📜logo.svg
- ┃ ┣ 📜react-app-env.d.ts
- ┃ ┣ 📜reportWebVitals.ts
- ┃ ┗ 📜setupTests.ts
- ┣ 📜.gitignore
- ┣ 📜.prettierrc.js
- ┣ 📜global.d.ts
- ┣ 📜package-lock.json
- ┣ 📜package.json
- ┣ 📜README.md
- ┣ 📜tsconfig.json
- ┗ 📜webpack.config.js
 
+
+
+
+
+
+📦gamepoor_web ┣ 📂public ┃ ┣ 📜firebase.js ┃ ┣ 📜index.html ┃ ┗ 📜robots.txt ┣ 📂src ┃ ┣ 📂components ┃ ┃ ┣ 📜addscore.ts ┃ ┃ ┣ 📜Contact.tsx ┃ ┃ ┣ 📜Events.tsx ┃ ┃ ┣ 📜Faqs.tsx ┃ ┃ ┣ 📜Feedback.tsx ┃ ┃ ┣ 📜Footer.tsx ┃ ┃ ┣ 📜Forums.tsx ┃ ┃ ┣ 📜Groups.tsx ┃ ┃ ┣ 📜Header.tsx ┃ ┃ ┣ 📜index.tsx ┃ ┃ ┣ 📜LoginForm.tsx ┃ ┃ ┣ 📜Main.tsx ┃ ┃ ┣ 📜Mission.tsx ┃ ┃ ┣ 📜Overview.tsx ┃ ┃ ┣ 📜RankingComponent.tsx ┃ ┃ ┣ 📜Screenshot1.tsx ┃ ┃ ┣ 📜Screenshot2.tsx ┃ ┃ ┣ 📜Screenshot3.tsx ┃ ┃ ┣ 📜SignForm.tsx ┃ ┃ ┣ 📜Team.tsx ┃ ┃ ┣ 📜UnityPlayer.tsx ┃ ┃ ┗ 📜usereditform.tsx ┃ ┣ 📂fonts ┃ ┃ ┣ 📜HowlinMad-A31L.otf ┃ ┃ ┣ 📜KaijuMonsterG-05pr.ttf ┃ ┃ ┣ 📜MonsterHunterExpanded-rL19.otf ┃ ┃ ┣ 📜Tenada.ttf ┃ ┃ ┗ 📜WickedType-OV2g8.ttf ┃ ┣ 📂images ┃ ┃ ┣ 📜bg.11.13.png ┃ ┃ ┣ 📜ground-rock-texture2.jpg ┃ ┃ ┣ 📜rough-architect-structure-stonewall-superb.jpg ┃ ┃ ┣ 📜screenshot1.png ┃ ┃ ┣ 📜screenshot2.png ┃ ┃ ┣ 📜screenshot3.png ┃ ┃ ┣ 📜stone-wall.jpg ┃ ┃ ┣ 📜stone6.jpg ┃ ┃ ┗ 📜whitish-pale-stone-wall.jpg ┃ ┣ 📂routes ┃ ┃ ┗ 📜RoutesSetup.tsx ┃ ┣ 📂styles ┃ ┃ ┣ 📜contact.css ┃ ┃ ┣ 📜events.css ┃ ┃ ┣ 📜faqs.css ┃ ┃ ┣ 📜feedback.css ┃ ┃ ┣ 📜footer.css ┃ ┃ ┣ 📜forums.css ┃ ┃ ┣ 📜groups.css ┃ ┃ ┣ 📜login.css ┃ ┃ ┣ 📜main.css ┃ ┃ ┣ 📜mission.css ┃ ┃ ┣ 📜navbar.css ┃ ┃ ┣ 📜overview.css ┃ ┃ ┣ 📜ranking.css ┃ ┃ ┣ 📜screenshot.css ┃ ┃ ┣ 📜sign-up.css ┃ ┃ ┣ 📜styles.module.css ┃ ┃ ┣ 📜team.css ┃ ┃ ┗ 📜userEdit.module.css ┃ ┣ 📂video ┃ ┃ ┣ 📜bg.mp4 ┃ ┃ ┗ 📜temp ┃ ┣ 📜App.css ┃ ┣ 📜App.test.tsx ┃ ┣ 📜App.tsx ┃ ┣ 📜FirebaseConfig.tsx ┃ ┣ 📜global.d.ts ┃ ┣ 📜index.css ┃ ┣ 📜index.tsx ┃ ┣ 📜logo.svg ┃ ┣ 📜react-app-env.d.ts ┃ ┣ 📜reportWebVitals.ts ┃ ┗ 📜setupTests.ts ┣ 📜.gitignore ┣ 📜.prettierrc.js ┣ 📜global.d.ts ┣ 📜package-lock.json ┣ 📜package.json ┣ 📜README.md ┣ 📜tsconfig.json ┗ 📜webpack.config.js
 
 
 
