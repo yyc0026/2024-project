@@ -33,13 +33,13 @@
 <summary>📁 전체 폴더 구조 보기</summary>
 
 ```
-gamepoor_web/
-├── public/
+📂 gamepoor_web
+├── 📂 public
 │   ├── firebase.js
 │   ├── index.html
 │   └── robots.txt
-├── src/
-│   ├── components/
+├── 📂 src
+│   ├── 📂 components
 │   │   ├── addscore.ts
 │   │   ├── Contact.tsx
 │   │   ├── Events.tsx
@@ -62,13 +62,13 @@ gamepoor_web/
 │   │   ├── Team.tsx
 │   │   ├── UnityPlayer.tsx
 │   │   └── usereditform.tsx
-│   ├── fonts/
+│   ├── 📂 fonts
 │   │   ├── HowlinMad-A31L.otf
 │   │   ├── KaijuMonsterG-05pr.ttf
 │   │   ├── MonsterHunterExpanded-rL19.otf
 │   │   ├── Tenada.ttf
 │   │   └── WickedType-OV2g8.ttf
-│   ├── images/
+│   ├── 📂 images
 │   │   ├── bg.11.13.png
 │   │   ├── ground-rock-texture2.jpg
 │   │   ├── rough-architect-structure-stonewall-superb.jpg
@@ -78,9 +78,9 @@ gamepoor_web/
 │   │   ├── stone-wall.jpg
 │   │   ├── stone6.jpg
 │   │   └── whitish-pale-stone-wall.jpg
-│   ├── routes/
+│   ├── 📂 routes
 │   │   └── RoutesSetup.tsx
-│   ├── styles/
+│   ├── 📂 styles
 │   │   ├── contact.css
 │   │   ├── events.css
 │   │   ├── faqs.css
@@ -99,9 +99,9 @@ gamepoor_web/
 │   │   ├── styles.module.css
 │   │   ├── team.css
 │   │   └── userEdit.module.css
-│   ├── video/
+│   ├── 📂 video
 │   │   ├── bg.mp4
-│   │   └── temp/
+│   │   └── 📂 temp
 │   ├── App.css
 │   ├── App.test.tsx
 │   ├── App.tsx
