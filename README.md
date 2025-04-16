@@ -29,35 +29,95 @@
 
 
 
+<details> <summary>📁 전체 폴더 구조 보기 (클릭)</summary>
+gamepoor_web/
+├── public/
+│   ├── firebase.js
+│   ├── index.html
+│   └── robots.txt
+├── src/
+│   ├── components/
+│   │   ├── addscore.ts
+│   │   ├── Contact.tsx
+│   │   ├── Events.tsx
+│   │   ├── Faqs.tsx
+│   │   ├── Feedback.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Forums.tsx
+│   │   ├── Groups.tsx
+│   │   ├── Header.tsx
+│   │   ├── index.tsx
+│   │   ├── LoginForm.tsx
+│   │   ├── Main.tsx
+│   │   ├── Mission.tsx
+│   │   ├── Overview.tsx
+│   │   ├── RankingComponent.tsx
+│   │   ├── Screenshot1.tsx
+│   │   ├── Screenshot2.tsx
+│   │   ├── Screenshot3.tsx
+│   │   ├── SignForm.tsx
+│   │   ├── Team.tsx
+│   │   ├── UnityPlayer.tsx
+│   │   └── usereditform.tsx
+│   ├── fonts/
+│   │   ├── HowlinMad-A31L.otf
+│   │   ├── KaijuMonsterG-05pr.ttf
+│   │   ├── MonsterHunterExpanded-rL19.otf
+│   │   ├── Tenada.ttf
+│   │   └── WickedType-OV2g8.ttf
+│   ├── images/
+│   │   ├── bg.11.13.png
+│   │   ├── ground-rock-texture2.jpg
+│   │   ├── rough-architect-structure-stonewall-superb.jpg
+│   │   ├── screenshot1.png
+│   │   ├── screenshot2.png
+│   │   ├── screenshot3.png
+│   │   ├── stone-wall.jpg
+│   │   ├── stone6.jpg
+│   │   └── whitish-pale-stone-wall.jpg
+│   ├── routes/
+│   │   └── RoutesSetup.tsx
+│   ├── styles/
+│   │   ├── contact.css
+│   │   ├── events.css
+│   │   ├── faqs.css
+│   │   ├── feedback.css
+│   │   ├── footer.css
+│   │   ├── forums.css
+│   │   ├── groups.css
+│   │   ├── login.css
+│   │   ├── main.css
+│   │   ├── mission.css
+│   │   ├── navbar.css
+│   │   ├── overview.css
+│   │   ├── ranking.css
+│   │   ├── screenshot.css
+│   │   ├── sign-up.css
+│   │   ├── styles.module.css
+│   │   ├── team.css
+│   │   └── userEdit.module.css
+│   ├── video/
+│   │   ├── bg.mp4
+│   │   └── temp/
+│   ├── App.css
+│   ├── App.test.tsx
+│   ├── App.tsx
+│   ├── FirebaseConfig.tsx
+│   ├── global.d.ts
+│   ├── index.css
+│   ├── index.tsx
+│   ├── logo.svg
+│   ├── react-app-env.d.ts
+│   ├── reportWebVitals.ts
+│   └── setupTests.ts
+├── .gitignore
+├── .prettierrc.js
+├── global.d.ts
+├── package-lock.json
+├── package.json
+├── README.md
+├── tsconfig.json
+└── webpack.config.js
 
-
-📦gamepoor_web ┣ 📂public ┃ ┣ 📜firebase.js ┃ ┣ 📜index.html ┃ ┗ 📜robots.txt ┣ 📂src ┃ ┣ 📂components ┃ ┃ ┣ 📜addscore.ts ┃ ┃ ┣ 📜Contact.tsx ┃ ┃ ┣ 📜Events.tsx ┃ ┃ ┣ 📜Faqs.tsx ┃ ┃ ┣ 📜Feedback.tsx ┃ ┃ ┣ 📜Footer.tsx ┃ ┃ ┣ 📜Forums.tsx ┃ ┃ ┣ 📜Groups.tsx ┃ ┃ ┣ 📜Header.tsx ┃ ┃ ┣ 📜index.tsx ┃ ┃ ┣ 📜LoginForm.tsx ┃ ┃ ┣ 📜Main.tsx ┃ ┃ ┣ 📜Mission.tsx ┃ ┃ ┣ 📜Overview.tsx ┃ ┃ ┣ 📜RankingComponent.tsx ┃ ┃ ┣ 📜Screenshot1.tsx ┃ ┃ ┣ 📜Screenshot2.tsx ┃ ┃ ┣ 📜Screenshot3.tsx ┃ ┃ ┣ 📜SignForm.tsx ┃ ┃ ┣ 📜Team.tsx ┃ ┃ ┣ 📜UnityPlayer.tsx ┃ ┃ ┗ 📜usereditform.tsx ┃ ┣ 📂fonts ┃ ┃ ┣ 📜HowlinMad-A31L.otf ┃ ┃ ┣ 📜KaijuMonsterG-05pr.ttf ┃ ┃ ┣ 📜MonsterHunterExpanded-rL19.otf ┃ ┃ ┣ 📜Tenada.ttf ┃ ┃ ┗ 📜WickedType-OV2g8.ttf ┃ ┣ 📂images ┃ ┃ ┣ 📜bg.11.13.png ┃ ┃ ┣ 📜ground-rock-texture2.jpg ┃ ┃ ┣ 📜rough-architect-structure-stonewall-superb.jpg ┃ ┃ ┣ 📜screenshot1.png ┃ ┃ ┣ 📜screenshot2.png ┃ ┃ ┣ 📜screenshot3.png ┃ ┃ ┣ 📜stone-wall.jpg ┃ ┃ ┣ 📜stone6.jpg ┃ ┃ ┗ 📜whitish-pale-stone-wall.jpg ┃ ┣ 📂routes ┃ ┃ ┗ 📜RoutesSetup.tsx ┃ ┣ 📂styles ┃ ┃ ┣ 📜contact.css ┃ ┃ ┣ 📜events.css ┃ ┃ ┣ 📜faqs.css ┃ ┃ ┣ 📜feedback.css ┃ ┃ ┣ 📜footer.css ┃ ┃ ┣ 📜forums.css ┃ ┃ ┣ 📜groups.css ┃ ┃ ┣ 📜login.css ┃ ┃ ┣ 📜main.css ┃ ┃ ┣ 📜mission.css ┃ ┃ ┣ 📜navbar.css ┃ ┃ ┣ 📜overview.css ┃ ┃ ┣ 📜ranking.css ┃ ┃ ┣ 📜screenshot.css ┃ ┃ ┣ 📜sign-up.css ┃ ┃ ┣ 📜styles.module.css ┃ ┃ ┣ 📜team.css ┃ ┃ ┗ 📜userEdit.module.css ┃ ┣ 📂video ┃ ┃ ┣ 📜bg.mp4 ┃ ┃ ┗ 📜temp ┃ ┣ 📜App.css ┃ ┣ 📜App.test.tsx ┃ ┣ 📜App.tsx ┃ ┣ 📜FirebaseConfig.tsx ┃ ┣ 📜global.d.ts ┃ ┣ 📜index.css ┃ ┣ 📜index.tsx ┃ ┣ 📜logo.svg ┃ ┣ 📜react-app-env.d.ts ┃ ┣ 📜reportWebVitals.ts ┃ ┗ 📜setupTests.ts ┣ 📜.gitignore ┣ 📜.prettierrc.js ┣ 📜global.d.ts ┣ 📜package-lock.json ┣ 📜package.json ┣ 📜README.md ┣ 📜tsconfig.json ┗ 📜webpack.config.js
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
